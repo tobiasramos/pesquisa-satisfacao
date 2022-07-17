@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 5px auto;
+    width: 550px;
+    height: 380px;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    box-shadow: 5px 5px;
+}
+
+.titulo {
+    margin: 28px auto;
+    text-align: center;
+    padding: 5px;
+    width: 510px;
+    height: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.titulo h2 {
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.titulo p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.form {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.form>input {
+    margin: 5px;
+    padding: 10px;
+}
+
+.marcado {
+    font-weight: 700;
+    background-color: rgba(255, 161, 0, 0.3);
+    border: none;
+}
+
+.nao-marcado {
+    font-weight: 400;
+    border: 2px solid #C4C4C4;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.btn {
+    margin-left: 80px;
+}
+
+.btn input {
+    margin: 5px;
+}
+
+.btn-form {
+    margin: 5px;
+    width: 520px;
+    height: 48px;
+    border-radius: 10px;
+}
+
+.btn-depois,
+.btn-salvar {
+    width: 190px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.btn-depois {
+    color: #0073FF;
+    background-color: #FAFAFA;
+    border: 1px solid #0073FF;
+}
+
+.btn-salvar {
+    color: #FCFCFC;
+    background-color: #0073FF;
+    border: none;
+}
+
+.iconMedalha {
+    width: 33.33px;
+    height: 64.88px;
+    color: #FFA100;
+}
+
+
